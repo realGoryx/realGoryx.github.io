@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mercedes S-Klasa W221 — Luxe Bridal Rides</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="wedding-soft">
+<!-- powielony header -->
+<header class="site-header">
+<div class="container header-inner">
+<div class="brand">
+<h1>Luxe Bridal Rides by Rybacki</h1>
+<p class="tag">Klasa sama w sobie w dniu Twojego ślubu</p>
+</div>
+        <div class="contact-inline">
+            <div>📞 +48 123 456 789</div>
+            <div>✉️ info@luxbridalrides.pl</div>
+            <div><a href="https://www.facebook.com/profile.php?id=61581639155801" class="fb-link">📘 Facebook</a></div>
+        </div>
+</div>
+    <nav class="main-nav">
+        <div class="container">
+            <a href="index.html" class="nav-link">Strona główna</a>
+            <a href="about.html" class="nav-link">O nas</a>
+            <a href="cla.html" class="nav-link active">Mercedes CLA</a>
+            <a href="e-klasa.html" class="nav-link">Mercedes E-Klasa W211</a>
+            <a href="jaguar.html" class="nav-link">Jaguar X</a>
+            <a href="gle.html" class="nav-link">Mercedes-Benz GLE</a>
+            <a href="q5.html" class="nav-link">Audi Q5</a>
+            <a href="s-class.html" class="nav-link">Mercedes S-Klasa</a>
+            <a href="a7.html" class="nav-link">Audi A7</a>
+        </div>
+    </nav>
+</header>
+
+<main class="container car-page">
+<section class="car-hero">
+<div class="car-title">
+<h2>Mercedes CLA W117</h2>
+<p>Młode, zjawiskowe coupé, które zamieni Wasz wielki dzień w sesję jak z okładki magazynu.</p>
+</div>
+<div class="car-meta">
+<div>Schłodzony szampan</div>
+<div>Kierowca w garniturze</div>
+<div>Możliwa fotobudka na przyjęcie</div>
+</div>
+</section>
+
+<section class="gallery-grid">
+<a href="cla/2.jpg" class="glightbox" data-gallery="s-w221">
+<img src="cla/2.jpg" alt="S-Klasa exterior">
+</a>
+<a href="cla/12.jpg" class="glightbox" data-gallery="s-w221">
+<img src="cla/12.jpg" alt="S-Klasa exterior 2">
+</a>
+<a href="cla/7.jpg" class="glightbox" data-gallery="s-w221">
+<img src="cla/7.jpg" alt="S-Klasa exterior 3">
+</a>
+<a href="cla/8.jpg" class="glightbox" data-gallery="s-w221">
+<img src="cla/8.jpg" alt="S-Klasa interior">
+</a>
+<a href="cla/1.jpg" class="glightbox" data-gallery="s-w221">
+<img src="cla/1.jpg" alt="S-Klasa interior 2">
+</a>
+<a href="cla/5.jpg" class="glightbox" data-gallery="s-w221">
+<img src="cla/5.jpg" alt="S-Klasa interior 2">
+</a>
+<a href="cla/6.jpg" class="glightbox" data-gallery="s-w221">
+<img src="cla/6.jpg" alt="S-Klasa interior 2">
+</a>
+<a href="cla/9.jpg" class="glightbox" data-gallery="s-w221">
+<img src="cla/9.jpg" alt="S-Klasa interior 2">
+</a>
+<a href="cla/10.jpg" class="glightbox" data-gallery="s-w221">
+<img src="cla/10.jpg" alt="S-Klasa interior 2">
+</a>
+<a href="cla/11.jpg" class="glightbox" data-gallery="s-w221">
+<img src="cla/11.jpg" alt="S-Klasa interior 2">
+</a>
+</section>
+
+<section class="book-panel">
+<h3>Zainteresowani? Napisz do nas</h3>
+<form class="contact-form" onsubmit="sendEmail(this, ''); return false;">
+    <h2>💌 Zarezerwuj swój przejazd marzeń</h2>
+    <div class="row">
+        <input type="text" name="name" placeholder="Imię i nazwisko" required>
+        <input type="email" name="email" placeholder="Email" required>
+    </div>
+    <input type="text" name="car" placeholder="Wybrany samochód (opcjonalnie)">
+    <textarea name="message" placeholder="Wiadomość" rows="5" required></textarea>
+    <button type="submit">Wyślij zapytanie 🚗✨</button>
+</form>
+</section>
+</main>
+
+
+
+<footer class="site-footer">
+<div class="container footer-inner">
+<p>&copy; 2025 Luxe Bridal Rides by Rybacki</p>
+</div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="js/form.js"></script>
+<script src="js/gallery.js"></script>
+<script>
+emailjs.init('EMAILJS_USER_ID');
+const lightbox = GLightbox({selector: '.glightbox'});
+</script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Luxe Bridal Rides by Rybacki</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+    (function(){
+        emailjs.init("9i7zSJXYWURsIQ5OO"); 
+    })();
+</script>
+
+<script src="js/form.js" defer></script>
+</head>
+
+<body class="wedding-soft">
+
+<header class="site-header">
+    <div class="container header-inner">
+        <div class="brand">
+            <h1>Luxe Bridal Rides by Rybacki</h1>
+            <p class="tag">Klasa sama w sobie w dniu Twojego ślubu</p>
+        </div>
+
+        <div class="contact-inline">
+            <div>📞 +48 123 456 789</div>
+            <div>✉️ info@luxbridalrides.pl</div>
+            <div><a href="https://www.facebook.com/profile.php?id=61581639155801" class="fb-link">📘 Facebook</a></div>
+        </div>
+    </div>
+
+    <nav class="main-nav">
+        <div class="container">
+            <a href="index.html" class="nav-link active">Strona główna</a>
+            <a href="about.html" class="nav-link">O nas</a>
+            <a href="cla.html" class="nav-link">Mercedes CLA</a>
+            <a href="e-klasa.html" class="nav-link">Mercedes E-Klasa W211</a>
+            <a href="jaguar.html" class="nav-link">Jaguar X</a>
+            <a href="gle.html" class="nav-link">Mercedes-Benz GLE</a>
+            <a href="q5.html" class="nav-link">Audi Q5</a>
+            <a href="s-class.html" class="nav-link">Mercedes S-Klasa</a>
+            <a href="a7.html" class="nav-link">Audi A7</a>
+        </div>
+    </nav>
+</header>
+
+<main class="container car-page">
+
+<section class="hero">
+    <div class="hero-left">
+        <h2>Twój wielki dzień — wjeżdżasz z klasą i stylem</h2>
+        <p>Nasze samochody to elegancja, komfort i dyskrecja. Każda trasa jest dopracowana w najdrobniejszym szczególe — punktualność i profesjonalizm to dla nas standard.</p>
+        <a class="btn primary" href="cla.html">Zobacz naszego Mercedesa!</a>
+        <a class="btn ghost" href="#contact-form">Zapytaj o ofertę</a>
+    </div>
+
+    <div class="hero-right">
+        <img src="Visit.jpg" alt="S-Klasa">
+    </div>
+</section>
+
+<section class="features">
+    <h3>Nasza flota - wyróżnione</h3>
+    <div class="cards">
+
+        <article class="card">
+            <img src="cla/2.jpg" alt="S-Klasa">
+            <h4>Mercedes CLA</h4>
+            <p>Komfort i prestiż. Idealna do wjazdu Pary Młodej.</p>
+            <a class="btn small" href="cla.html">Szczegóły</a>
+        </article>
+
+        <article class="card">
+            <img src="w211 e/3.jpg" alt="E-Klasa">
+            <h4>Mercedes E-Klasa W211</h4>
+            <p>Elegancja i niezawodność — klasyczny wybór.</p>
+            <a class="btn small" href="e-klasa.html">Szczegóły</a>
+        </article>
+
+        <article class="card">
+            <img src="jaguar/3.jpg" alt="CLA">
+            <h4>Jaguar X</h4>
+            <p>Nowoczesny design i stylowy charakter.</p>
+            <a class="btn small" href="jaguar.html">Szczegóły</a>
+        </article>
+    </div>
+</section>
+
+<section class="book-panel">
+    <h3>Zainteresowani? Napisz do nas</h3>
+    <form id="contact-form" class="contact-form">
+        <h2>💌 Zarezerwuj swój przejazd marzeń</h2>
+        <p class="reply-info">Odpowiadamy w ciągu 24 godzin ✔️</p>
+
+        <div class="row">
+            <input type="text" name="name" placeholder="Imię i nazwisko" required>
+            <input type="email" name="email" placeholder="Email" required>
+        </div>
+
+        <select name="car">
+            <option value="">Wybierz samochód (opcjonalnie)</option>
+            <option value="Mercedes CLA">Mercedes CLA</option>
+            <option value="Mercedes W211">Mercedes W211</option>
+            <option value="Jaguar X">Jaguar X</option>
+            <option value="Mercedes-Benz GLE">Mercedes-Benz GLE</option>
+            <option value="Audi Q5">Audi Q5</option>
+            <option value="CLA">CLA</option>
+        </select>
+
+        <textarea name="message" placeholder="Wiadomość" rows="4" required></textarea>
+
+        <button type="submit">Wyślij zapytanie 🚗✨</button>
+    </form>
+</section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>&copy; 2025 Luxe Bridal Rides by Rybacki</p>
+    </div>
+</footer>
+
+</body>
+</html>
